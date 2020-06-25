@@ -1,8 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+
 
 
 namespace _2_2
@@ -31,7 +33,7 @@ namespace _2_2
             List<byte> numb1InBits = numb1;
             List<byte> numb2InBits = numb2;
 
-            Console.WriteLine($"divided: {ListToString(numb1InBits)} *** divisor: {ListToString(numb2InBits)} *** quotient: {ListToString(result.Quotient)}");
+            Console.WriteLine($"divided: {ListToString(numb1InBits)} \ndivisor: {ListToString(numb2InBits)}\n \nquotient: {ListToString(result.Quotient)}\n");
 
             int counter = 0;
             List<byte> portionOfDivided = new List<byte>();
