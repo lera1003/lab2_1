@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_2_2</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="D:\КНУ\КС\lab2 vs\2_2.cs" Link="2_2.cs" />
+  </ItemGroup>
+
+</Project>
